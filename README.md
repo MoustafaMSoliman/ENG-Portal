@@ -62,8 +62,8 @@ This is a Domain-Driven Design (DDD) ERP system developed using .NET Core, speci
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/erp-ddd-academic.git
-   cd erp-ddd-academic
+   git clone https://github.com/MoustafaMSoliman/ENG-Portal.git
+   cd portal
 
 2. **Set up the Database**:
 Update appsettings.json with your SQL Server connection string.
