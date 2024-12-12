@@ -49,7 +49,6 @@ This is a Domain-Driven Design (DDD) ERP system developed using .NET Core, speci
 
 ### Technologies Used
 - **Backend**: .NET Core (C#)
-- **Frontend**: ASP.NET Core MVC or Blazor (Optional)
 - **Database**: SQL Server
 - **Architecture**: Domain-Driven Design with layered architecture (Domain, Application, Infrastructure, Presentation).
 
@@ -65,3 +64,14 @@ This is a Domain-Driven Design (DDD) ERP system developed using .NET Core, speci
    ```bash
    git clone https://github.com/your-repo/erp-ddd-academic.git
    cd erp-ddd-academic
+
+2. **Set up the Database**:
+Update appsettings.json with your SQL Server connection string.
+Run migrations:
+   ```bash
+   dotnet ef database update
+
+3. **Run the Application:**:
+
+   ```bash
+   dotnet run
